@@ -1,0 +1,17 @@
+* {
+  background-color: rgb(216, 244, 244);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+
+.btn {
+  background-color: rgb(124, 250, 237);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid blue;
+}

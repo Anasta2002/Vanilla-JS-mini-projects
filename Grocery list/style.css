@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://cdn.glitch.global/6ba063c0-0b44-49ad-9054-b9ae3f4efe6e/monika.jpg?v=1654722451587");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.head {
+  background: linear-gradient(to left, #cb12e7, #00d4ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 200;
+}
+
+.input {
+  width: 40%;
+  height: 10%;
+  border: 1px solid rgba(0, 0, 0, 0.474);
+  font-size: 25px;
+}
+
+.btn {
+  height: 10%;
+  width: 5%;
+  padding: 10px;
+  background-color: #00d4ff;
+}
+
+.li {
+  list-style-type: none;
+  border: 1px solid rgb(153, 4, 153);
+  background-color: azure;
+  width: 40%;
+  height: 40px;
+  font-size: 20px;
+}
+
+.mouseover {
+  font-size: 30px;
+  background-color: rgb(153, 4, 153);
+  border: 1px solid #00d4ff;
+}
+
+.head .list .li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

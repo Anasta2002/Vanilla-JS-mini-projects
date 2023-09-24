@@ -1,0 +1,1 @@
+Practice adding and removing elements with JS

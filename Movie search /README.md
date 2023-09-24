@@ -1,0 +1,1 @@
+This mini-project is a training fetch of requests

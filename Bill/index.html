@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link href="style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="icon" href="https://freepngimg.com/save/89626-fork-restaurant-food-photography-icons-computer-monochrome/512x512">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">  
+   </head>
+   <body>
+      <div class="container">
+         <h1>Let's Split Our Bill!</h1>
+         <form>
+            <p>Bill 💰</p>
+            <span>$
+                <Input placeholder="bill" type="text" id="bill"></Input>
+            </span>
+            
+            <p>😎Number of people</p>
+            <span>
+                <input type="text" id="people" placeholder="How many people?">
+            </span>
+            
+            <p>💗Did you like our service?💗</p>
+            <button id="addTip">
+               <p>Add a tip!</p>
+            </button>
+            <select id="tip">
+               <option disabled>Select an option</option>
+               <option value="0.00">No tip</option>
+               <option value="0.10">It was okay 10%</option>
+               <option value="0.20">Good service 20%</option>
+               <option selected value="0.30">WOW! 30%</option>
+            </select>
+            <button id="btn">
+               <p>Calculate</p>
+            </button>
+            <div class="blocks">
+               <div class="billSplit">
+                  <p>Bill</p>
+                  <p>
+                    <span>$</span>
+                    <span id="dividedBill"></span> 
+                    <span>per person</span>
+                </p>
+               </div>
+               <div class="totalTip">
+                  <p>Tip</p>
+                  <p>
+                    <span>$</span>
+                    <span id="totalTip"></span> 
+                    <span>per person</span>
+                  </p>
+               </div>
+               <div class="totalAmount">
+                <p>Total</p>
+                <p>
+                  <span>$</span>
+                  <span id="totalAmount"></span> 
+                  <span>per person</span>
+                </p>
+             </div>
+            </div>
+         </form>
+      </div>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>

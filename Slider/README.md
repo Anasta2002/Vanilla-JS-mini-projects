@@ -1,0 +1,1 @@
+Mini-project to practice switching images in the slider

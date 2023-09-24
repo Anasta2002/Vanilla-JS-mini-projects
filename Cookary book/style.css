@@ -1,0 +1,91 @@
+* {
+  background: linear-gradient(to left, #97d9e1, #d9afd9);
+}
+
+#firstImage {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  margin: 5px;
+  position: relative;
+}
+
+.one {
+  background-image: url("https://images.unsplash.com/photo-1654874766820-e95e7cf75eb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
+}
+
+.two {
+  background-image: url("https://images.unsplash.com/photo-1650828239975-91588ccab85c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1854&q=80");
+}
+
+.three {
+  background-image: url("https://images.unsplash.com/photo-1647437777309-aff781a189c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
+}
+
+.four {
+  background-image: url("https://images.unsplash.com/photo-1654417958787-5d9948c3c04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+}
+
+.five {
+  background-image: url("https://images.unsplash.com/photo-1649996415102-c2d8d2edc046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
+}
+
+.six {
+  background-image: url("https://images.unsplash.com/photo-1654923064643-4029284b40bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+}
+
+h2 {
+  font-family: "Fascinate", cursive;
+  background-color: #d9afd9;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  font-size: 0;
+}
+
+.text {
+  font-family: "Fascinate", cursive;
+  font-size: 0;
+  background-color: #d9afd9;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.price {
+  font-family: "Fascinate", cursive;
+  font-size: 0;
+  background-color: #d9afd9;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+.selected {
+  flex: 4;
+  font-size: 1;
+}
+
+.selected h2 {
+  font-size: 40px;
+  transition: all 1s ease-in;
+}
+
+.selected .text {
+  font-size: 20px;
+  transition: all 1s ease-in;
+}
+
+.selected .price {
+  font-size: 40px;
+  transition: all 1s ease-in;
+}

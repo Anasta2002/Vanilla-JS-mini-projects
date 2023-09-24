@@ -1,0 +1,1 @@
+Practice using input as a search
